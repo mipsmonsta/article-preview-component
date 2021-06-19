@@ -23,12 +23,31 @@ body {
 }
 
 .container {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
     font-family: var(--ff-family);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.imgarticle {
+    height: 250px;
+    width: 200px;
+    
+    background-image: url(./images/drawers.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    overflow:hidden;
 }
 
 .content {
  width: 400px;
- height: 300px;
+ height: 250px;
  display: flex;
  flex-direction: column;
  justify-content:space-around;
