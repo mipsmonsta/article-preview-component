@@ -17,6 +17,11 @@ html {
     font-size: 13px;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 .container {
     font-family: var(--ff-family);
 }
@@ -87,9 +92,10 @@ html {
 }
 
 
-.fa.fa-share{
+.avatar__share{
     width: 2rem;
     height: 2rem;
+    margin: auto;
     color: var(--de-saturated-darkblue);
     background-color: var(--light-greyish-blue);
     padding:0.3rem;
