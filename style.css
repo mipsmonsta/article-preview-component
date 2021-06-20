@@ -133,7 +133,7 @@ body {
     position: absolute;
     z-index: 1;
     top: -100%; /* of avatar */
-    left: 72%;
+    left: 71%;
     background-color: var(--dark-greyish-blue);
     text-transform: uppercase;
     font-family: var(--ff-family);
@@ -177,7 +177,7 @@ body {
     grid-column: 3 / -1;
     grid-row: 1 / -1;
     justify-self: end;
-    align-self: center;
+    margin: 7px 0 0 0;
     cursor: pointer;
     background-color: var(--light-greyish-blue);
     border-radius: 50%;
