@@ -79,18 +79,15 @@ body {
 .avatar {
     font-weight: 500;
     font-size: 1.2rem;
-    position: relative;
-}
-
-
-
-.avatar {
+    position: relative; /* so that sharebar can be absolute relative to avatar */
     width: 90%;
     height: auto;
     display: grid;
     grid-template-columns: 15% 65% 20%;
     grid-template-rows: 100%;
 }
+
+
 
 .avatar__pic {
     width: 40px;
@@ -135,6 +132,11 @@ body {
     letter-spacing: 0.1rem;
     align-items: center;
     border-radius: 8px;
+    display: none;
+}
+
+.sharebar.open {
+    display: flex;
 }
 
 .sharebar:after { /*trangle of sharebar*/
